@@ -16,36 +16,28 @@ Ex3: abc
 import sys
 
 
-def encode(input_str: str) -> str:
+def encode(string: str) -> str:
 	"""Perform run length encoding for compression.
 
-	Complexity( n=len(input_str) ):
+	Complexity( n=len(string) ):
 		Time: O(n)
-		Space: O(1)
+		Space: O(n)
 	"""
 	# Base cases:
-	if input_str == None or len(input_str) == 0:
-		return ' '
-	if len(input_str) == 1:
-		return f'1{input_str[0]}'
+	if string == None or len(string) == 0:
+		return ''
 	
-	# Prepare for iterating:
-	s = input_str.strip()
-	res = ''
-	p = s[0]
-	cnt = 1
-
-	# Run through each char in string:
-	for c in s[1:]:
-		if c == p:
-			cnt += 1
+	encoding = list()
+	counter = 1
+	for i in range(len(string)-1):
+		if string[i] != string[i+1] or counter == 9:
+			encoding.append(f'{counter}{string[i]}')
+			counter = 1
 		else:
-			res += f'{cnt}{p}'
-			cnt = 1
-		p = c
-
-	res += f'{cnt}{s[-1]}'
-	return res
+			counter += 1
+	encoding.append(f'{counter}{string[-1]}')
+    
+	return ''.join(encoding)
 
 
 if __name__ == '__main__':
