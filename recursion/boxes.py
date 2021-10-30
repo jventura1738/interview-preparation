@@ -4,6 +4,7 @@ def num_of_piles(n, m, p):
     return split(n//p, m, p, n%p)
 
 
+# O(log_p(n)) TIME, O(n) stack frames SPACE?
 def split(n, m, p, extra):
     piles = [n]*p
     for i in range(len(piles)):
