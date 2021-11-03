@@ -10,7 +10,7 @@ my solutions to interview prep questions
 - Twitter: OA
 - AT&T: OA
 - IBM SE: OA
-- IBM DS: OA
+- IBM DS: OA (upcoming)
 - Cisco: OA
 - MasterCard: OA
 - Jane Street [REJECT]
