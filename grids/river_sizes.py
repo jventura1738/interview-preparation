@@ -1,4 +1,5 @@
 # Justin Ventura
+# This is also a graph problem.
 
 def riverSizes(matrix):
     visited = set()
@@ -36,6 +37,6 @@ if __name__ == '__main__':
         [1, 0, 1, 0, 1],
         [1, 0, 1, 1, 0]
     ]
-    result = riverSizes(matrix)    
+    result = riverSizes(matrix)
     assert sorted(result) == [1, 2, 2, 2, 5]
     print(result)
