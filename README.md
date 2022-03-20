@@ -1,14 +1,16 @@
 # interview-preparation
-my solutions to interview prep questions
 
-Jusin Ventura
+I suggest you try these on your own first.  If you'd like to add a
+solution of your own in another language (not python) feel free to
+PR :)
 
+Justin Ventura
 
 ## Blind 75 LeetCode (there are others in repo not in B75)
 1. Array
     - [x] Two Sum
     - [ ] Best Time to Buy and Sell Stock
-    - [ ] Contains Duplicate
+    - [x] Contains Duplicate
     - [x] Product of Array Except Self
     - [ ] Maximum Subarray
     - [ ] Maximum Product Subarray
