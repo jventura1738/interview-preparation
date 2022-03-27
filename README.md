@@ -9,7 +9,7 @@ Justin Ventura
 ## Blind 75 LeetCode (there are others in repo not in B75)
 1. Array
     - [x] Two Sum
-    - [ ] Best Time to Buy and Sell Stock
+    - [x] Best Time to Buy and Sell Stock
     - [x] Contains Duplicate
     - [x] Product of Array Except Self
     - [ ] Maximum Subarray
