@@ -57,7 +57,7 @@ Justin Ventura
     - [ ] Meeting Rooms II (Leetcode Premium)
 
 6. Linked List
-    - [ ] Reverse a Linked List
+    - [x] Reverse a Linked List
     - [ ] Detect Cycle in a Linked List
     - [ ] Merge Two Sorted Lists
     - [ ] Merge K Sorted Lists
