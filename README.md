@@ -71,7 +71,7 @@ Justin Ventura
     - [ ] Word Search
 
 8. String
-    - [ ] Longest Substring Without Repeating Characters
+    - [x] Longest Substring Without Repeating Characters
     - [ ] Longest Repeating Character Replacement
     - [ ] Minimum Window Substring
     - [ ] Valid Anagram
