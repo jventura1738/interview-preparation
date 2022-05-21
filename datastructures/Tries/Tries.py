@@ -48,8 +48,23 @@ class Trie:
 
 
 if __name__ == '__main__':
-    words = ['joe', 'joseph', 'ma', 'mom', 'momma', 'mama', 'mommy', 'joey']
     Lambda = Trie()
-    map(Lambda.insert, words)
 
-    # TODO: Test search, starts_with, and insert.
+    # Test the search on empty Trie
+    assert Lambda.search('joe') is False
+    assert Lambda.search('') is False
+    assert Lambda.starts_with('j') is False
+
+    Lambda.insert('joe')
+    Lambda.insert('joseph')
+    Lambda.insert('mom')
+    Lambda.insert('mama')
+
+    assert Lambda.search('joe') is True
+    assert Lambda.search('Joe') is False
+    assert Lambda.search('m') is False
+    assert Lambda.starts_with('m') is False
+    assert Lambda.starts_with('j') is True
+    assert Lambda.starts_with('jo') is True
+    assert Lambda.starts_with('jos') is True
+    assert Lambda.starts_with('joseph') is False
