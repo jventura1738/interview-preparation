@@ -41,3 +41,11 @@ class MyQueue:
 
     def empty(self) -> bool:
         return len(self.instack) == 0
+
+
+if __name__ == '__main__':
+    queue = MyQueue()
+    for i in range(5):
+        queue.push(i)
+    res = [queue.pop() for _ in range(5)]
+    assert(res == [0, 1, 2, 3, 4])
