@@ -80,7 +80,7 @@ Justin Ventura
     - [ ] Valid Palindrome
     - [ ] Longest Palindromic Substring
     - [ ] Palindromic Substrings
-    - [ ] Encode and Decode Strings (Leetcode Premium)
+    - [x] Encode and Decode Strings (Leetcode Premium)
 
 9. Tree
     - [ ] Maximum Depth of Binary Tree
