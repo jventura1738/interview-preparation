@@ -1,6 +1,6 @@
 # Justin Ventura
 
-from helpers import create_graph
+from graph.helpers import create_graph
 from queue import PriorityQueue
 
 
