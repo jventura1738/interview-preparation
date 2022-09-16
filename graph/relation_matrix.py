@@ -1,4 +1,4 @@
-# Justin Ventura
+# Justin Ventura | Twitter
 
 import sys
 
@@ -37,12 +37,13 @@ python3 relation_matrix.py 3 100 010 001
 
 visited = set()
 
+
 def DFS(v_i, graph):
     if v_i not in visited:
         visited.add(v_i)
         for v_j in graph[v_i]:
             DFS(v_j, graph)
-    
+
 
 def num_groups(graph):
     groups = 0
@@ -59,7 +60,7 @@ if __name__ == '__main__':
     for i, line in enumerate(sys.argv[2:]):
         related.append(list(line))
 
-    graph = {i:[] for i in range(n)}
+    graph = {i: [] for i in range(n)}
 
     for r in range(1, n):
         for c in range(0, n-1):
