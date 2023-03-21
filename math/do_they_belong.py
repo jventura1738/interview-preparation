@@ -10,7 +10,7 @@ PROMPT:
 Given a triangle formed by a(x1, y1), b(x2, y2), c(x3, y3), and 
 two points p(xp, yp) and q(xq, yq), return the correct scenario:
 
-- 0: if the triangle does not form a non-degenerate triangle
+- 0: if the triangle forms a non-degenerate triangle
 - 1: if p is inside the triangle but q is not
 - 2: if q is inside the triangle but p is not
 - 3: if both p and q are inside the triangle
