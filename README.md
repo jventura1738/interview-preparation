@@ -1,8 +1,6 @@
 # interview-preparation
 
-I suggest you try these on your own first.  If you'd like to add a
-solution of your own in another language (not python) feel free to
-PR :)
+THIS IS THE OLD VERSION, I AM WORKING ON A NEW ONE NOW.
 
 Justin Ventura
 
